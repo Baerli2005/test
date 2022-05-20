@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.grid {
+  padding: 3em;
+  padding-left: 170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.carousel .carousel-indicators button {
+  background-color: grey;
+}
+.carousel .carousel-indicators button.active {
+  background-color: black;
+}
+
+.control-right{
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    margin: 0 !important;
+}
+
+.control-left{
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  margin: 0 !important;
+}
